@@ -8,6 +8,7 @@
 
 </head>
 <body>
-	
+	<form action="add-mobile" method="post"></form>
+
 </body>
 </html>
