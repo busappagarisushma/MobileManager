@@ -1,5 +1,7 @@
 package com.example;
 
-public class AddMobile {
+import javax.servlet.http.HttpServlet;
+
+public class AddMobile extends HttpServlet{
 
 }
