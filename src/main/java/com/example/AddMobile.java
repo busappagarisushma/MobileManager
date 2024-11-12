@@ -11,7 +11,10 @@ public class AddMobile extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doPost(req, resp);
+
+		String mobileModel = req.getParameter("mobileModel");
+		String mobileBrand = req.getParameter("mobileBrand");
+		int mobilePrice = Integer.parseInt(req.getParameter("mobilePrice"));
+
 	}
 }
