@@ -12,7 +12,9 @@
 	<h2>
 		<a href="adddetails.jsp">ADD MOBILE</a>
 	</h2>
-	
+	<h2>
+		<a href="Dispaly-All-Mobiles">DISPLAY DETAILS</a>
+	</h2>
 
 </body>
 </html>
