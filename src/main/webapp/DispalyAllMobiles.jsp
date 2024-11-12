@@ -21,6 +21,26 @@
 			<th>Update</th>
 			<th>Delete</th>
 		</tr>
+		<%
+		while (rs.next()) {
+		%>
+		<tr>
+			<td><%=rs.getInt(1)%></td>
+			<td><%=rs.getString("MobileModel")%></td>
+			<td><%=rs.getString(3)%></td>
+			<td><%=rs.getInt(4)%></td>
+			<td><a href="update-mobile?mobileId=<%=rs.getInt(1)%>">UPDATE</a>
+			</td>
+			<td><a href="delete-mobile?mobileId=<%=rs.getInt(1)%>">DELETE</a></td>
+		</tr>
+		<%
+		}
+		%>
+	</table>
+
+	<h2>
+		<a href="index.jsp">Go Back To Dash Board</a>
+	</h2>
 
 </body>
 </html>
