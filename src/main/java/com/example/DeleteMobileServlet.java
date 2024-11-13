@@ -1,5 +1,7 @@
 package com.example;
 
-public class DeleteMobileServlet {
+import javax.servlet.http.HttpServlet;
+
+public class DeleteMobileServlet extends HttpServlet{
 
 }
