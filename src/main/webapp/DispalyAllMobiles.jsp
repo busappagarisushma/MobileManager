@@ -5,7 +5,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Display Mobiles</title>
+<link href="style.css" rel="stylesheet" text="text/css"/>
 </head>
 <body>
 <h1>Display All Mobiles</h1>
